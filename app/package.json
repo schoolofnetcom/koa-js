@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "son, koajs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "son"
+  ],
+  "author": "Leonan Luppi <SON>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "koa": "^1.2.4",
+    "koa-body": "^1.6.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-methodoverride": "^2.0.0",
+    "koa-override": "^1.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "koa-swig": "^2.2.1",
+    "mongoose": "^4.7.5"
+  }
+}
